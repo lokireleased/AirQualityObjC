@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0516A623983DA600F4A3FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516A523983DA600F4A3FE /* AppDelegate.m */; };
+		5A0516AC23983DA600F4A3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0516AA23983DA600F4A3FE /* Main.storyboard */; };
+		5A0516AE23983DA800F4A3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0516AD23983DA800F4A3FE /* Assets.xcassets */; };
+		5A0516B123983DA800F4A3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0516AF23983DA800F4A3FE /* LaunchScreen.storyboard */; };
+		5A0516B423983DA800F4A3FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516B323983DA800F4A3FE /* main.m */; };
+		5A0516BD23983E0100F4A3FE /* LBTCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516BC23983E0100F4A3FE /* LBTCityAirQuality.m */; };
+		5A0516C023984F8A00F4A3FE /* LBTWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516BF23984F8A00F4A3FE /* LBTWeather.m */; };
+		5A0516C32398509000F4A3FE /* LBTPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516C22398509000F4A3FE /* LBTPollution.m */; };
+		5A0516C72398540800F4A3FE /* LBTAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516C62398540800F4A3FE /* LBTAirQualityController.m */; };
+		5A0516D023987C3700F4A3FE /* CountryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516CF23987C3700F4A3FE /* CountryListTableViewController.swift */; };
+		5A0516D223987D1C00F4A3FE /* StatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516D123987D1C00F4A3FE /* StatesListTableViewController.swift */; };
+		5A0516D423987DB200F4A3FE /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516D323987DB200F4A3FE /* CitiesTableViewController.swift */; };
+		5A0516D623987E1D00F4A3FE /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0516D523987E1D00F4A3FE /* CityDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0516A123983DA600F4A3FE /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0516A423983DA600F4A3FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A0516A523983DA600F4A3FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A0516AB23983DA600F4A3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A0516AD23983DA800F4A3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A0516B023983DA800F4A3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A0516B223983DA800F4A3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A0516B323983DA800F4A3FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A0516BB23983E0100F4A3FE /* LBTCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTCityAirQuality.h; sourceTree = "<group>"; };
+		5A0516BC23983E0100F4A3FE /* LBTCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTCityAirQuality.m; sourceTree = "<group>"; };
+		5A0516BE23984F8A00F4A3FE /* LBTWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTWeather.h; sourceTree = "<group>"; };
+		5A0516BF23984F8A00F4A3FE /* LBTWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTWeather.m; sourceTree = "<group>"; };
+		5A0516C12398509000F4A3FE /* LBTPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTPollution.h; sourceTree = "<group>"; };
+		5A0516C22398509000F4A3FE /* LBTPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTPollution.m; sourceTree = "<group>"; };
+		5A0516C52398540800F4A3FE /* LBTAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBTAirQualityController.h; sourceTree = "<group>"; };
+		5A0516C62398540800F4A3FE /* LBTAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBTAirQualityController.m; sourceTree = "<group>"; };
+		5A0516C92398797B00F4A3FE /* AirQuality-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQuality-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A0516CF23987C3700F4A3FE /* CountryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewController.swift; sourceTree = "<group>"; };
+		5A0516D123987D1C00F4A3FE /* StatesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesListTableViewController.swift; sourceTree = "<group>"; };
+		5A0516D323987DB200F4A3FE /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		5A0516D523987E1D00F4A3FE /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A05169E23983DA600F4A3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A05169823983DA600F4A3FE = {
+			isa = PBXGroup;
+			children = (
+				5A0516A323983DA600F4A3FE /* AirQuality */,
+				5A0516A223983DA600F4A3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A0516A223983DA600F4A3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516A123983DA600F4A3FE /* AirQuality.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A0516A323983DA600F4A3FE /* AirQuality */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516AA23983DA600F4A3FE /* Main.storyboard */,
+				5A0516CC239879CD00F4A3FE /* View */,
+				5A0516C82398541900F4A3FE /* Controllers */,
+				5A0516C4239853C700F4A3FE /* Models */,
+				5A0516BA23983DC500F4A3FE /* Resources */,
+			);
+			path = AirQuality;
+			sourceTree = "<group>";
+		};
+		5A0516BA23983DC500F4A3FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516AD23983DA800F4A3FE /* Assets.xcassets */,
+				5A0516A423983DA600F4A3FE /* AppDelegate.h */,
+				5A0516A523983DA600F4A3FE /* AppDelegate.m */,
+				5A0516AF23983DA800F4A3FE /* LaunchScreen.storyboard */,
+				5A0516B223983DA800F4A3FE /* Info.plist */,
+				5A0516B323983DA800F4A3FE /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A0516C4239853C700F4A3FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516BB23983E0100F4A3FE /* LBTCityAirQuality.h */,
+				5A0516BC23983E0100F4A3FE /* LBTCityAirQuality.m */,
+				5A0516BE23984F8A00F4A3FE /* LBTWeather.h */,
+				5A0516BF23984F8A00F4A3FE /* LBTWeather.m */,
+				5A0516C12398509000F4A3FE /* LBTPollution.h */,
+				5A0516C22398509000F4A3FE /* LBTPollution.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A0516C82398541900F4A3FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516C52398540800F4A3FE /* LBTAirQualityController.h */,
+				5A0516C62398540800F4A3FE /* LBTAirQualityController.m */,
+				5A0516C92398797B00F4A3FE /* AirQuality-Bridging-Header.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5A0516CC239879CD00F4A3FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A0516CF23987C3700F4A3FE /* CountryListTableViewController.swift */,
+				5A0516D123987D1C00F4A3FE /* StatesListTableViewController.swift */,
+				5A0516D323987DB200F4A3FE /* CitiesTableViewController.swift */,
+				5A0516D523987E1D00F4A3FE /* CityDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A0516A023983DA600F4A3FE /* AirQuality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0516B723983DA800F4A3FE /* Build configuration list for PBXNativeTarget "AirQuality" */;
+			buildPhases = (
+				5A05169D23983DA600F4A3FE /* Sources */,
+				5A05169E23983DA600F4A3FE /* Frameworks */,
+				5A05169F23983DA600F4A3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirQuality;
+			productName = AirQuality;
+			productReference = 5A0516A123983DA600F4A3FE /* AirQuality.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A05169923983DA600F4A3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "tyson ericksen";
+				TargetAttributes = {
+					5A0516A023983DA600F4A3FE = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 5A05169C23983DA600F4A3FE /* Build configuration list for PBXProject "AirQuality" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A05169823983DA600F4A3FE;
+			productRefGroup = 5A0516A223983DA600F4A3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A0516A023983DA600F4A3FE /* AirQuality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A05169F23983DA600F4A3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0516B123983DA800F4A3FE /* LaunchScreen.storyboard in Resources */,
+				5A0516AE23983DA800F4A3FE /* Assets.xcassets in Resources */,
+				5A0516AC23983DA600F4A3FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A05169D23983DA600F4A3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0516B423983DA800F4A3FE /* main.m in Sources */,
+				5A0516C72398540800F4A3FE /* LBTAirQualityController.m in Sources */,
+				5A0516D423987DB200F4A3FE /* CitiesTableViewController.swift in Sources */,
+				5A0516C023984F8A00F4A3FE /* LBTWeather.m in Sources */,
+				5A0516D623987E1D00F4A3FE /* CityDetailViewController.swift in Sources */,
+				5A0516BD23983E0100F4A3FE /* LBTCityAirQuality.m in Sources */,
+				5A0516D023987C3700F4A3FE /* CountryListTableViewController.swift in Sources */,
+				5A0516D223987D1C00F4A3FE /* StatesListTableViewController.swift in Sources */,
+				5A0516A623983DA600F4A3FE /* AppDelegate.m in Sources */,
+				5A0516C32398509000F4A3FE /* LBTPollution.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A0516AA23983DA600F4A3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0516AB23983DA600F4A3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A0516AF23983DA800F4A3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A0516B023983DA800F4A3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A0516B523983DA800F4A3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A0516B623983DA800F4A3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0516B823983DA800F4A3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 466B3S7A6F;
+				INFOPLIST_FILE = "$(SRCROOT)/AirQuality/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lokireleased.AirQuality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality/Controllers/AirQuality-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A0516B923983DA800F4A3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 466B3S7A6F;
+				INFOPLIST_FILE = "$(SRCROOT)/AirQuality/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lokireleased.AirQuality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AirQuality/Controllers/AirQuality-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A05169C23983DA600F4A3FE /* Build configuration list for PBXProject "AirQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0516B523983DA800F4A3FE /* Debug */,
+				5A0516B623983DA800F4A3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0516B723983DA800F4A3FE /* Build configuration list for PBXNativeTarget "AirQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0516B823983DA800F4A3FE /* Debug */,
+				5A0516B923983DA800F4A3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A05169923983DA600F4A3FE /* Project object */;
+}
